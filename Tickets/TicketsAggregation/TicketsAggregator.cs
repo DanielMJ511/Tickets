@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 using System.Text;
-using TicketsDataAggregator.Extensions;
 using TicketsDataAggregator.FileAccess;
+using Tickets.FileAccess;
+using Tickets.Extemsions;
 
 namespace TicketsDataAggregator.TicketsAggregation;
 

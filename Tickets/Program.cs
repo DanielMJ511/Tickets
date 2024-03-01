@@ -1,4 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using TicketsDataAggregator.FileAccess;
+using TicketsDataAggregator.TicketsAggregation;
+
 const string TicketsFolder = @"C:\OurCinema\Tickets";
 try
 {
