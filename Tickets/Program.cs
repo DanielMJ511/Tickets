@@ -1,2 +1,18 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+const string TicketsFolder = @"C:\OurCinema\Tickets";
+try
+{
+    var ticketsAggregator = new TicketsAggregator(
+        TicketsFolder,
+        new FileWriter(),
+        new DocumentsFromPdfsReader());
+
+    ticketsAggregator.Run();
+}
+catch (Exception ex)
+{
+    Console.WriteLine("An exception occurred. " + ex.Message);
+}
+
+Console.WriteLine("Press any key to close.");
+Console.ReadKey();
