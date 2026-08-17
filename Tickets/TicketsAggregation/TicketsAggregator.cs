@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Text;
 using TicketsDataAggregator.FileAccess;
 using Tickets.FileAccess;
-using Tickets.Extemsions;
+using TicketsDataAggregator.Extensions;
 
 namespace TicketsDataAggregator.TicketsAggregation;
 
